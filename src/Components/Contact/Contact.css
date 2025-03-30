@@ -53,9 +53,9 @@
   color: #d8d8d8;
 }
 
-a:link {
+/* a:link {
   text-decoration: none;
-}
+} */
 
 .contact-right {
   flex-basis: 55%;

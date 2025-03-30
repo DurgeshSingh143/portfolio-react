@@ -4,7 +4,7 @@ import theme_pattern from "../../assets/theme_pattern.svg";
 import mail_icon from "../../assets/mail_icon.svg";
 import location_icon from "../../assets/location_icon.svg";
 import call_icon from "../../assets/call_icon.svg";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   const onSubmit = async (event) => {
@@ -54,7 +54,6 @@ const Contact = () => {
             </div>
 
             <div className="contact-detail">
-              {/* <img src={location_icon} alt="" /> <p>Rajasthan, INDIA</p> */}
               <FaGithub />{" "}
               <p>
                 <a href="https://github.com/DurgeshSingh143" target="_blank">
@@ -62,6 +61,19 @@ const Contact = () => {
                 </a>
               </p>
             </div>
+
+            <div className="contact-detail">
+              <FaLinkedin />{" "}
+              <p>
+                <a
+                  href="https://www.linkedin.com/in/durgeshsinghsolanki/"
+                  target="_blank"
+                >
+                  Durgesh Singh Solanki
+                </a>
+              </p>
+            </div>
+
             <div className="contact-detail">
               <img src={location_icon} alt="" /> <p>Rajasthan, INDIA</p>
             </div>
